@@ -116,6 +116,7 @@
     <Content Include="Modules\site-menu\js\directives\siteMenuDirective.js" />
     <Content Include="Modules\site-menu\js\site-menu.js" />
     <Content Include="Modules\site-menu\main.js" />
+    <Content Include="README.txt" />
     <Content Include="StyleSheets\global.css" />
     <Content Include="StyleSheets\Images\wifi_connected.png" />
     <Content Include="StyleSheets\Images\wifi_noConnection.png" />

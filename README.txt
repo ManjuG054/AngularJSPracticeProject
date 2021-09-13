@@ -1,0 +1,1 @@
+﻿This is a single page web application built using Angular JS integrated with Require JS
