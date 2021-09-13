@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS</title>
+    <link href="StyleSheets/global.css" rel="stylesheet" />
+    <script data-main="Library-Scripts/RequireJS/config" src="Library-Scripts/RequireJS/require.js"></script>
+</head>
+<body>
+    <header class="site-header" ng-controller="siteHeaderController">
+        <site-header-directive></site-header-directive>
+    </header>
+    <div class="site-body-pannel">
+        <div class="site-menu">
+            <div class="site-menu-header">
+                Menu
+            </div>
+            <div ng-controller="siteMenuController" class="site-menu-body">
+                <site-menu-directive></site-menu-directive>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="body-header" ng-controller="siteBodyHeaderController">
+               <body-header-directive></body-header-directive>
+            </div>
+            <div id="body-content" class="body-content">
+                <ng-view class="log-in-page-container"></ng-view>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">© copy rights reserved 2021</footer>
+</body>
+</html>

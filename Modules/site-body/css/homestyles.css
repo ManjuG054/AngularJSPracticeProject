@@ -1,0 +1,9 @@
+﻿.home-message {
+    font-size: 20px;
+}
+
+.home-image-container {
+    margin-top: calc(100% - 90%);
+    display: flex;
+    justify-content: center;
+}
